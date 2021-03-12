@@ -1,0 +1,12 @@
+[biophysical_constants]
+transcription_saturation_constant=0.000036                # units: nM
+characteristic_transcript_length=1000                  # units: nt 
+energy_promoter_state_1=20.0                           # units: kJ/mol
+energy_promoter_state_2=-28.8                          # units: kJ/mol
+inducer_dissociation_constant=0.02419                                           # units: nM. Varner paper, deGFP
+inducer_cooperativity_parameter=1.12                                           # units: dimensionless. Varner paper, C1 model
+mRNA_half_life_in_min=13.5                                                # units: min. Varner paper, deGFP, C1 model
+RNAPII_concentration=60                                                     # units: nM. myTXTL minimum val
+transcription_elongation_rate=720                                              # units: nt/min. Varner paper, minumum val
+transcription_time_constant=0.61                                              # units: dimensionless. Varner paper, deGFP, C1 model
+gene_length_in_nt=690                                                        # units: nt. GIVEN
